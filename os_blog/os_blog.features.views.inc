@@ -637,7 +637,7 @@ function _os_blog_views_default_views() {
     'links' => TRUE,
   ));
   $handler = $view->new_display('page', 'Page', 'page');
-  $handler->override_option('path', 'archive');
+  $handler->override_option('path', 'blog/archive');
   $handler->override_option('menu', array(
     'type' => 'none',
     'title' => '',
