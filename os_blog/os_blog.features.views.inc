@@ -362,20 +362,20 @@ function _os_blog_views_default_views() {
     'skip_blank' => 0,
   ));
   $handler = $view->new_display('page', 'Blog list', 'page_1');
-  $handler->override_option('path', 'blog');
+  $handler->override_option('path', 'blog/list');
   $handler->override_option('menu', array(
-    'type' => 'none',
-    'title' => '',
+    'type' => 'default tab',
+    'title' => 'Blog',
     'description' => '',
-    'weight' => 0,
+    'weight' => '-42',
     'name' => 'navigation',
   ));
   $handler->override_option('tab_options', array(
-    'type' => 'none',
-    'title' => '',
+    'type' => 'normal',
+    'title' => 'Blog',
     'description' => '',
-    'weight' => 0,
-    'name' => 'navigation',
+    'weight' => '0',
+    'name' => 'primary-links',
   ));
   $handler = $view->new_display('block', 'Recent blog entries', 'block_1');
   $handler->override_option('fields', array(
