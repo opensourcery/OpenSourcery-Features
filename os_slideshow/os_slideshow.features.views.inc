@@ -285,7 +285,7 @@ function _os_slideshow_views_default_views() {
     'type' => 'ul',
     'skin' => 'sidelist_bottom',
     'thumbnail_field' => 'counter',
-    'height' => '335',
+    'height' => '320',
     'verticalPadding' => '',
     'prevnext' => array(
       'prev_label' => '',
