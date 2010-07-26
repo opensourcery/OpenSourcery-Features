@@ -1,5 +1,6 @@
 core = "6.x"
 dependencies[] = "comment"
+dependencies[] = "context_admin"
 dependencies[] = "context_admin_vbo"
 dependencies[] = "features"
 dependencies[] = "image_resize_filter"
