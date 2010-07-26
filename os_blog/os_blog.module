@@ -8,6 +8,11 @@
 include_once('os_blog.features.inc');
 
 /**
+ * 'Tags' vocabulary ID.
+ */
+define('OS_BLOG_TAGS_VID', 1);
+
+/**
  * Implementation of hook_views_pre_render().
  */
 function os_blog_views_pre_render(&$view) {

@@ -139,7 +139,7 @@ function _os_blog_views_default_views() {
       'link_to_taxonomy' => 1,
       'limit' => 1,
       'vids' => array(
-        '3' => 3,
+        '3' => OS_BLOG_TAGS_VID,
         '2' => 0,
         '1' => 0,
       ),
