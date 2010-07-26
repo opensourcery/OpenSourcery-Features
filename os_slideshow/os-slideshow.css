@@ -1,4 +1,13 @@
 /** Slideshow **/
+.view-homepage-slideshow ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.view-homepage-slideshow ul li {
+  list-style: none;
+  clear: both;
+}
 
 .views-cycle-container {
   height: 320px;
