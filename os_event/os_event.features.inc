@@ -37,6 +37,15 @@ function os_event_node_info() {
 }
 
 /**
+ * Implementation of hook_default_page_manager_pages().
+ */
+function os_event_default_page_manager_pages() {
+  module_load_include('inc', 'os_event', 'os_event.defaults');
+  $args = func_get_args();
+  return call_user_func_array('_os_event_default_page_manager_pages', $args);
+}
+
+/**
  * Implementation of hook_user_default_permissions().
  */
 function os_event_user_default_permissions() {
